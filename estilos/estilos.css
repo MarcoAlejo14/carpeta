@@ -23,19 +23,19 @@ nav ul li {
     margin: 0 15px;
 }
 
-.slider {
+.presentacion {
     text-align: center;
     padding: 20px;
 }
 
-.slider div {
+.presentacion div {
     background-color: #eee;
     width: 80%;
     margin: 0 auto;
     padding: 10px;
 }
 
-.slider img {
+.presentacion img {
     width: 100%;
     height: auto;
 }
@@ -83,6 +83,25 @@ nav ul li {
     height: 150px;
     object-fit: cover;
 }
+.postres {
+    display: inline-block;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.postres div {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.postres img {
+    width: 100%;
+    height: auto;
+}
 
 h2 {
     font-size: 1.2em;
@@ -100,10 +119,7 @@ figcaption {
     flex-wrap: wrap;
 }
 
-.postres div {
-    flex-basis: calc(25% - 20px);
-    margin: 0 10px 20px 10px;
-}
+
 
 .contenedor {
     display: flex;
